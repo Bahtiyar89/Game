@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "780260873140",
+    "project_id": "game-5aedd",
+    "storage_bucket": "game-5aedd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780260873140:android:f9aa6aaa027b9e6cd3d8e1",
+        "android_client_info": {
+          "package_name": "com.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780260873140-v3t4l4kgn1sijac4nhaskp22nfonqrcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1T6NQ6nFp-Jszn78xOJMhJnGiNyUKREI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780260873140-v3t4l4kgn1sijac4nhaskp22nfonqrcn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "780260873140-ejmg9jbh4c3cavqhs97civihcg077ph0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.game"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
