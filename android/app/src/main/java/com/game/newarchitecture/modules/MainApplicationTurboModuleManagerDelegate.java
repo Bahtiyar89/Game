@@ -1,4 +1,4 @@
-package com.game.newarchitecture.modules;
+package hiberion.liga.bop.newarchitecture.modules;
 
 import com.facebook.jni.HybridData;
 import com.facebook.react.ReactPackage;

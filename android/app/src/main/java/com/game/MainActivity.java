@@ -1,4 +1,4 @@
-package com.game;
+package hiberion.liga.bop;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

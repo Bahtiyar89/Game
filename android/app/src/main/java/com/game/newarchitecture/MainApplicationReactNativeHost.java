@@ -1,4 +1,4 @@
-package com.game.newarchitecture;
+package hiberion.liga.bop.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.game.BuildConfig;
-import com.game.newarchitecture.components.MainComponentsRegistry;
-import com.game.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import hiberion.liga.bop.BuildConfig;
+import hiberion.liga.bop.newarchitecture.components.MainComponentsRegistry;
+import hiberion.liga.bop.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

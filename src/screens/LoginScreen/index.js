@@ -57,21 +57,24 @@ const LoginScreen = ({navigation}) => {
         <TouchableOpacity
           onPress={() => setModalVisible(true)}
           style={{
-            borderRadius: 13,
+            borderRadius: 20,
             width: '100%',
             padding: 5,
-            backgroundColor: '#32A7E2',
+            borderWidth: 5,
+            borderStyle: 'solid',
             height: 55,
             justifyContent: 'center',
+            borderColor: 'green',
           }}>
           <Text
             style={{
-              fontWeight: '500',
-              color: '#FFFFFF',
+              fontWeight: '900',
+              color: 'green',
               textAlign: 'center',
               fontSize: 18,
+              textTransform: 'uppercase',
             }}>
-            Войти в игру
+            Старт
           </Text>
         </TouchableOpacity>
       </SafeAreaView>
