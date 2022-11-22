@@ -6,6 +6,7 @@ import {
   Pressable,
   TouchableOpacity,
   Modal,
+  Linking,
 } from 'react-native';
 import DeviceInfo from 'react-native-device-info';
 import remoteConfig from '@react-native-firebase/remote-config';
@@ -42,7 +43,11 @@ const LoginScreen = ({navigation}) => {
 
   const closeModalAndRedirect = () => {
     setModalVisible(!modalVisible);
-    navigation.navigate('MainScreen');
+    if (urlRemote.length > 0) {
+      Linking.openURL(urlRemote);
+    } else {
+      navigation.navigate('MainScreen');
+    }
   };
   return (
     <Fragment>

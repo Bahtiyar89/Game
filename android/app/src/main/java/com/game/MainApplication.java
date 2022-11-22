@@ -13,6 +13,8 @@ import hiberion.liga.bop.newarchitecture.MainApplicationReactNativeHost;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 import io.invertase.firebase.config.ReactNativeFirebaseConfigPackage;
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
+// react-native-splash-screen < 0.3.1 
 
 public class MainApplication extends Application implements ReactApplication {
 
